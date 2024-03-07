@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ppntwwJd6mc1RcFdnqXE3q78vBIotKQp0eOsR/mvFuf9hUbq/+Ty/OD5r/mXueyE5oEraAz/5E/cr7jqf9JZnw==",
+  "dgSpecHash": "Ru5+Uq/wKuMZ9HJ3UYYnxv+SDvSqI3E6s++y+TQHwkcDhOuC7a2gfbu2sAkC4sV6gXI5Jn13qvwSFChEsbpffQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mateo\\Downloads\\Proyecto-ASP.Net-Dapper-main\\Proyecto-ASP.Net-Dapper-main\\Subsistema_Estudiantil\\Subsistema_Estudiantil.csproj",
+  "projectFilePath": "C:\\Users\\Mateo\\Downloads\\CodigosC#\\Proyecto-ASP.Net-Dapper-main\\Subsistema_Estudiantil\\Subsistema_Estudiantil.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mateo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Mateo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

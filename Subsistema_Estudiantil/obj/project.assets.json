@@ -2074,11 +2074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mateo\\Downloads\\Proyecto-ASP.Net-Dapper-main\\Proyecto-ASP.Net-Dapper-main\\Subsistema_Estudiantil\\Subsistema_Estudiantil.csproj",
+      "projectUniqueName": "C:\\Users\\Mateo\\Downloads\\CodigosC#\\Proyecto-ASP.Net-Dapper-main\\Subsistema_Estudiantil\\Subsistema_Estudiantil.csproj",
       "projectName": "Subsistema_Estudiantil",
-      "projectPath": "C:\\Users\\Mateo\\Downloads\\Proyecto-ASP.Net-Dapper-main\\Proyecto-ASP.Net-Dapper-main\\Subsistema_Estudiantil\\Subsistema_Estudiantil.csproj",
+      "projectPath": "C:\\Users\\Mateo\\Downloads\\CodigosC#\\Proyecto-ASP.Net-Dapper-main\\Subsistema_Estudiantil\\Subsistema_Estudiantil.csproj",
       "packagesPath": "C:\\Users\\Mateo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mateo\\Downloads\\Proyecto-ASP.Net-Dapper-main\\Proyecto-ASP.Net-Dapper-main\\Subsistema_Estudiantil\\obj\\",
+      "outputPath": "C:\\Users\\Mateo\\Downloads\\CodigosC#\\Proyecto-ASP.Net-Dapper-main\\Subsistema_Estudiantil\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
