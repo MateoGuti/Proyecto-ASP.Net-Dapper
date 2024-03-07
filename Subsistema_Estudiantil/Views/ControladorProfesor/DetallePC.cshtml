@@ -1,0 +1,65 @@
+﻿@model FormularioProfesor
+@{
+    ViewData["Title"] = "Detalle de solicitudes canceladas";
+}
+
+<div>
+    <div class="mb-5 bg-dark" style="border-radius:15px 15px 15px 15px; box-shadow:0 15px 15px 0;
+    ">
+        <h2 style="color:white; text-align:center;">Detalle Registro de @Model.Nombre</h2>
+    </div>
+
+    <div class="row justify-content-md-center text-center mb-3">
+        <form asp-action="DetallePC" asp-controller="ControladorProfesor" class="FormularioEstudiante">
+            <input type="hidden" asp-for="IdProfesor" />
+            <div class="mb-3" style="margin-top:30px;">
+                <label asp-for="Nombre" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="Nombre"
+                       placeholder="Ingrese nombre" disabled />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Apellido" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="Apellido"
+                       placeholder="Ingrese apellido" disabled />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Asignatura" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="Asignatura"
+                       placeholder="Ingrese la Asignatura que se encuentra enseñando" disabled />
+                <span asp-validation-for="Asignatura" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Gmail" class="form-label"></label>
+                <input type="email" class="form-control" asp-for="Gmail"
+                       placeholder="Ingrese gmail" disabled />
+                <span asp-validation-for="Gmail" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Documento" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="Documento"
+                       placeholder="Ingrese el documento" disabled />
+                <span asp-validation-for="Documento" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Nacimiento" class="form-label"></label>
+                <input type="date" class="form-control" asp-for="Nacimiento"
+                       placeholder="Ingrese fecha de nacimiento" disabled />
+                <span asp-validation-for="Nacimiento" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Observacion" class="form-label col-3"></label>
+                <textarea class="form-control" asp-for="Observacion" rows="3"
+                          placeholder="Ingrese su observación" disabled></textarea>
+                <span asp-validation-for="Observacion" class="text-danger"></span>
+            </div>
+            <a asp-action="TablaProfesorCancelada" type="submit" class="btn btn-secondary"
+               id="btnEnviarEstudiante">Volver</a>
+
+        </form>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

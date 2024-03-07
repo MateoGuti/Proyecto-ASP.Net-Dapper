@@ -1,0 +1,101 @@
+﻿@model IEnumerable<FormularioEstudiantes>
+@{
+    ViewData["Title"] = "Tabla Estudiante";
+}
+
+<div>
+    <div class="mb-5 bg-dark" style="border-radius:15px 15px 15px 15px; box-shadow:0 15px 15px 0;
+    ">
+        <h2 style="color:white; text-align:center;">Solicitudes Estudiantes</h2>
+    </div>
+    <div class="row justify-content-md-center text-center mb-3">
+        <table class="table table table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Acciones</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Carrera</th>
+                    <th>Gmail</th>
+                    <th>Documento</th>
+                    <th>Nacimiento</th>
+                    <th>Observacion</th>
+                </tr>
+            </thead>
+            <tbody id="reordenable">
+                @foreach (var formularioEstudiantes in Model)
+                {
+                    <tr>
+                        <td>
+                            <input type="hidden" value="@formularioEstudiantes.IdEstudiante" class="ids"/>
+                            <a class="btn btn-primary" asp-action="EditarP" asp-controller="ControladorEstudiante"
+                               asp-route-id="@formularioEstudiantes.IdEstudiante"><i class="bi bi-pen-fill"></i></a>
+                            <a class="btn btn-secondary" asp-action="DetalleE" asp-controller="ControladorEstudiante"
+                               asp-route-id="@formularioEstudiantes.IdEstudiante"><i class="bi bi-journal-text"></i></a>
+                            <a class="btn btn-danger" asp-action="EliminarE" asp-controller="ControladorEstudiante"
+                               asp-route-id="@formularioEstudiantes.IdEstudiante"><i class="bi bi-trash-fill"></i></a>
+                        </td>
+                        <td>
+                            @formularioEstudiantes.Nombre
+                        </td>
+                        <td>
+                            @formularioEstudiantes.Apellido
+                        </td>
+                        <td>
+                            @formularioEstudiantes.Carrera
+                        </td>
+                        <td>
+                            @formularioEstudiantes.Gmail
+                        </td>
+                        <td>
+                            @formularioEstudiantes.Documento
+                        </td>
+                        <td>
+                            @formularioEstudiantes.Nacimiento
+                        </td>
+                        <td>
+                            @formularioEstudiantes.Observacion
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a asp-action="Inicio" asp-controller="Home" type="submit" class="btn btn-secondary"
+           id="btnEnviarEstudiante">Volver</a>
+    </div>
+</div>
+
+@*Permite cambiar el orden de las tablas *@
+@section Scripts {
+    <script>
+        const urlOrdenar = '@Url.Action("ordenar")';
+        $(function () {
+            $("#reordenable").sortable({
+                stop: async function (e, ui) {
+                    await actualizarOrden();
+                }
+            });
+
+            async function actualizarOrden() {
+                const ids = obtenerIds();
+                await enviarIds(ids);
+            }
+            function obtenerIds() {
+                const ids = $(".ids").map(function () {
+                    return $(this).val();
+                }).get();
+                return ids;
+            }
+            async function enviarIds(ids) {
+                var data = JSON.stringify(ids);
+                await fetch(urlOrdenar, {
+                    method: 'POST',
+                    body: data,
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+            }
+        })
+    </script>
+}

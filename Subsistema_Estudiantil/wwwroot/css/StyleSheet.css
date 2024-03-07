@@ -1,0 +1,241 @@
+﻿#btnEnviarProfesor {
+    width: 100px;
+}
+
+#btnProfesor {
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#btnEstudiante {
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#btnEnviarEstudiante {
+    width: 120px;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    margin: 4%;
+}
+
+.Centro {
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.Centro2 {
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.FormularioEstudiante {
+    width: 1200px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: -10px 20px 40px 10px gray;
+}
+
+.FormularioProfesor {
+    width: 1200px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: -10px 20px 40px 10px gray;
+}
+
+#btnEnviarProfesor {
+    width: 120px;
+    color: white;
+    background-color: blue;
+    border-radius: 15px 15px 15px 15px;
+    margin: 4%;
+}
+
+.configuracion1 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.configuracion2 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.configuracion3 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.configuracion4 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.configuracion5 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.configuracion6 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.configuracion7 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.configuracion8 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.configuracion9 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.configuracion10 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.configuracion11 {
+    border-radius: 15px 15px 15px 15px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 10px 10px 5px gray;
+}
+
+.Parrafo {
+    width: 800px;
+    margin-top: -300px;
+}
+
+#btnCancear {
+    width: 120px;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    background-color: blue;
+    margin: 4%;
+}
+
+#reordenable tr {
+    cursor: move;
+}
+
+.Tabla {
+    width: 1850px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: -10px 20px 40px 10px gray;
+}
+
+.custom-padding {
+    padding: 1px; 
+}
+
+.menu {
+    width: 0px;
+    height: 100%;
+    background-color: #3377FF;
+    position: fixed;
+    top: 55px; /* Ajuste la distancia desde la parte superior */
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+    z-index: 1000;
+}
+
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+}
+
+.menu-btn {
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    z-index: 2000;
+}
+
+.truncate-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*ChatG*/
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 50px;
+}
+
+h1, h2, h3 {
+    color: #6c63ff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.card {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<FormularioCarrera>
+@{
+    ViewData["Title"] = "Tabla de carreras";
+}
+
+<div>
+    <div class="mb-5 bg-dark" style="border-radius:15px 15px 15px 15px; box-shadow:0 15px 15px 0;
+    ">
+        <h2 style="color:white; text-align:center;">
+            Carreras <a asp-action="InsertCarrera" asp-controller="ControladorMaestras" type="submit" class="btn btn-secondary"
+                        ><i class="bi bi-building-fill-add"></i></a>
+                
+        </h2>
+    </div>
+    <div class="row justify-content-md-center text-center mb-3">
+        <table class="table table table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Acciones</th>
+                    <th>Id</th>
+                    <th>Carrera</th>
+                </tr>
+            </thead>
+            <tbody id="reordenable">
+                @foreach (var formularioCarrera in Model)
+                {
+                    <tr>
+                        <td>
+                            <input type="hidden" value="@formularioCarrera.Id" class="ids" />
+                            <a class="btn btn-danger" asp-action="EliminarCarrera" asp-controller="ControladorMaestras"
+                               asp-route-id="@formularioCarrera.Id"><i class="bi bi-trash-fill"></i></a>
+                        </td>
+                        <td>
+                            @formularioCarrera.Id
+                        </td>
+                        <td>
+                            @formularioCarrera.Carrera
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a asp-action="Inicio" asp-controller="Home" type="submit" class="btn btn-secondary"
+           id="btnEnviarEstudiante">Volver</a>
+    </div>
+</div>
+
+

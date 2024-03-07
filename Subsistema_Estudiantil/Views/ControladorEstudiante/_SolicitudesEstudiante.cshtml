@@ -1,0 +1,67 @@
+﻿@model CarreaCreacionViewModel
+
+@{
+    ViewData["Title"] = "Estudiante";
+}
+<div>
+    <div class="mb-5 bg-dark" style="border-radius:15px 15px 15px 15px; box-shadow:0 15px 15px 0;
+    ">
+        <h2 style="color:white; text-align:center;">Solicitud Estudiante</h2>
+    </div>
+    <div class="row justify-content-md-center mb-3">
+        <form asp-action="SolicitudesEstudiante" asp-controller="ControladorEstudiante" class="FormularioEstudiante">
+            <div class="form-floating mb-3" style="margin-top:30px;">
+                <input type="text" class="form-control" id="floatingInput" asp-for="Nombre" placeholder="Ingrese nombre">
+                <label asp-for="Nombre" class="form-label" for=" floatingInput">Nombre</label>
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3" style="margin-top:30px;">
+                <input type="text" class="form-control" id="floatingInput" asp-for="Apellido"
+                       placeholder="Ingrese apellido" />
+                <label asp-for="Apellido" class="form-label" for=" floatingInput"></label>
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3" style="margin-top:30px;">
+               
+                <input type="text" class="form-control" asp-for="Documento"
+                       placeholder="Ingrese el documento" />
+                <label asp-for="Documento" class="form-label" for=" floatingInput"></label>
+                <span asp-validation-for="Documento" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3" style="margin-top:30px;">
+                <input type="date" class="form-control" asp-for="Nacimiento"
+                       placeholder="Ingrese fecha de nacimiento" />
+                <label asp-for="Nacimiento" class="form-label" for=" floatingInput"></label>
+                <span asp-validation-for="Nacimiento" class="text-danger"></span>
+            </div>
+            @*Se crea este select y se aplica el model.CarreraId ya que esta propiedad es la que va a recibir el listado y por lo mismo 
+                se creo como IEnumerable en CarreaCreacionViewModel.
+            *@
+            <div class="form-floating mb-3" style="margin-top:30px;">
+                <select  class="form-select" asp-for="Carrera"
+                       asp-items="Model.CarreraId">
+                    <option value="" disabled selected style="color: grey;">Seleccionar una carrera</option>
+                   </select>
+                <label asp-for="Carrera" class="form-label" for=" floatingInput"></label>
+            <span asp-validation-for="Carrera" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3" style="margin-top:30px;">
+                <input type="email" class="form-control" asp-for="Gmail"
+                       placeholder="Ingrese gmail" />
+                <label asp-for="Gmail" class="form-label" for=" floatingInput"></label>
+                <span asp-validation-for="Gmail" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3" style="margin-top:30px;">
+                <textarea class="form-control"  asp-for="Observacion" rows="3"
+                          placeholder="Ingrese su observación"></textarea>
+                <label asp-for="Observacion" class="form-label col-3" for=" floatingInput"></label>
+                <span asp-validation-for="Observacion" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary" id="btnEnviarEstudiante">Enviar</button>
+            <a asp-action="Inicio" asp-controller="Home" type="submit" class="btn btn-secondary" id="btnEnviarEstudiante">Cancelar</a>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

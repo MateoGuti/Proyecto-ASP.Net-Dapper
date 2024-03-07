@@ -1,0 +1,147 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Subsistema_Estudiantil
+build_property.RootNamespace = Subsistema_Estudiantil
+build_property.ProjectDir = C:\Users\Mateo\Downloads\Proyecto-ASP.Net-Dapper-main\Proyecto-ASP.Net-Dapper-main\Subsistema_Estudiantil\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Mateo\Downloads\Proyecto-ASP.Net-Dapper-main\Proyecto-ASP.Net-Dapper-main\Subsistema_Estudiantil
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorConfiguracion/Configuracion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JDb25maWd1cmFjaW9uXENvbmZpZ3VyYWNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorEstudiante/CorrectaSolicitud.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JFc3R1ZGlhbnRlXENvcnJlY3RhU29saWNpdHVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorEstudiante/DetalleE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JFc3R1ZGlhbnRlXERldGFsbGVFLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorEstudiante/DetalleEC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JFc3R1ZGlhbnRlXERldGFsbGVFQy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorEstudiante/EditarP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JFc3R1ZGlhbnRlXEVkaXRhclAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorEstudiante/EliminarE.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JFc3R1ZGlhbnRlXEVsaW1pbmFyRS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorEstudiante/SolicitudesEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JFc3R1ZGlhbnRlXFNvbGljaXR1ZGVzRXN0dWRpYW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorEstudiante/TablaEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JFc3R1ZGlhbnRlXFRhYmxhRXN0dWRpYW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorEstudiante/TablaEstudianteCancelada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JFc3R1ZGlhbnRlXFRhYmxhRXN0dWRpYW50ZUNhbmNlbGFkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorEstudiante/_SolicitudesEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JFc3R1ZGlhbnRlXF9Tb2xpY2l0dWRlc0VzdHVkaWFudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorMaestras/CarreraU.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JNYWVzdHJhc1xDYXJyZXJhVS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorMaestras/CorrectaSolicitud.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JNYWVzdHJhc1xDb3JyZWN0YVNvbGljaXR1ZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorMaestras/EliminarCarrera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JNYWVzdHJhc1xFbGltaW5hckNhcnJlcmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorMaestras/InsertCarrera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JNYWVzdHJhc1xJbnNlcnRDYXJyZXJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorProfesor/CorrectaSolicitud.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JQcm9mZXNvclxDb3JyZWN0YVNvbGljaXR1ZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorProfesor/DetalleP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JQcm9mZXNvclxEZXRhbGxlUC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorProfesor/DetallePC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JQcm9mZXNvclxEZXRhbGxlUEMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorProfesor/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JQcm9mZXNvclxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorProfesor/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JQcm9mZXNvclxFbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorProfesor/SolicitudesProfesor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JQcm9mZXNvclxTb2xpY2l0dWRlc1Byb2Zlc29yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorProfesor/TablaProfesor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JQcm9mZXNvclxUYWJsYVByb2Zlc29yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorProfesor/TablaProfesorCancelada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JQcm9mZXNvclxUYWJsYVByb2Zlc29yQ2FuY2VsYWRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/ControladorProfesor/_SolicitudesProfesor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJvbGFkb3JQcm9mZXNvclxfU29saWNpdHVkZXNQcm9mZXNvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/Home/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmljaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/Home/NoEncontrado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb0VuY29udHJhZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mateo/Downloads/Proyecto-ASP.Net-Dapper-main/Proyecto-ASP.Net-Dapper-main/Subsistema_Estudiantil/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e4nkd82xv6

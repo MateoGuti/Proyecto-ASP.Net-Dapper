@@ -1,0 +1,25 @@
+﻿@model FormularioCarrera
+@{
+    ViewData["Title"] = "Insertar carrera";
+}
+<div>
+    <div class="mb-5 bg-dark" style="border-radius:15px 15px 15px 15px; box-shadow:0 15px 15px 0;
+    ">
+        <h2 style="color:white; text-align:center;">Agregar carrera</h2>
+    </div>
+    <div class="row justify-content-md-center text-center mb-3">
+        <form asp-action="InsertCarrera" asp-controller="ControladorMaestras" class="FormularioEstudiante">
+            <div class="mb-3" style="margin-top:30px;">
+                <label asp-for="Carrera" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="Carrera"
+                       placeholder="Ingrese carrera" />
+                <span asp-validation-for="Carrera" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary" id="btnEnviarEstudiante">Crear</button>
+            <a asp-action="Inicio" asp-controller="Home" type="submit" class="btn btn-secondary" id="btnEnviarEstudiante">Cancelar</a>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

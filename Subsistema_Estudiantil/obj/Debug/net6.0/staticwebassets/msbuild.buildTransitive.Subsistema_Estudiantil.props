@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Subsistema_Estudiantil.props" />
+</Project>

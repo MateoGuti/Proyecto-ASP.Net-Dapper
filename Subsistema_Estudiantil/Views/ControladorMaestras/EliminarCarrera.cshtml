@@ -1,0 +1,27 @@
+﻿@model FormularioCarrera
+@{
+    ViewData["Title"] = "Eliminar carerra";
+}
+
+<div>
+    <div class="mb-5 bg-dark" style="border-radius:15px 15px 15px 15px; box-shadow:0 15px 15px 0;
+    ">
+        <h2 style="color:white; text-align:center;">Eliminacion de Registro con Id = @Model.Id</h2>
+    </div>
+    
+    <div class="row justify-content-md-center text-center mb-3">
+        <h3>
+            si continua se procedera con la eliminacion de la carrera "@Model.Carrera" permanentemente 
+        </h3>
+        <form asp-action="EliminarCarrera" asp-controller="ControladorMaestras" class="FormularioEstudiante">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger" id="btnEnviarEstudiante">Eliminar</button>
+            <a asp-action="CarreraU" type="submit" class="btn btn-secondary" id="btnEnviarEstudiante">Volver</a>
+
+        </form>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
