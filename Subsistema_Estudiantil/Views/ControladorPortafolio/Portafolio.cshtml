@@ -1,21 +1,26 @@
 ﻿@{
     ViewData["Title"] = "Configuracion";
 }
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/StyleSheet.css" />
-</head>
+
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<title>Mi Portafolio</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/StyleSheet.css" />
+
 <body>
     <div class="container">
         <img class="profile-image" style="width: 300px" src="~/Imagenes/Foto.jpeg" alt="Mi Foto" />
-        <p>
-            Soy una persona enfocada en desarrollar mis capacidades a partir del acceso a los distintos sistemas de información y su constante evolución,  con el talento de identificar y corregir posibles fallos en productos o software, orientando mis esfuerzos y conocimiento a la ejecución de automatizaciones, asegurando que cumplan con los estándares de rendimiento y funcionalidad. A cada proyecto le inyecto mi habilidad desde su diseño, en metodologías ágiles,  desing thincking, entre otros.
-        </p>
+        <div class="mb-5">
+            <p>
+                Soy una persona enfocada en desarrollar mis capacidades a partir del acceso a los distintos sistemas
+                de información y su constante evolución,  con el talento de identificar y corregir posibles fallos en
+                productos o software, orientando mis esfuerzos y conocimiento a la ejecución de automatizaciones, asegurando
+                que cumplan con los estándares de rendimiento y funcionalidad. A cada proyecto le inyecto mi habilidad desde
+                su diseño, en metodologías ágiles,  desing thincking, entre otros.
+            </p>
+        </div>
         <h2>Mis proyectos</h2>
         <div id="projectCarousel" class="carousel slide project-carousel" data-ride="carousel">
             <div class="carousel-inner">
@@ -25,7 +30,6 @@
                 <div class="carousel-item">
                     <img src="~/Imagenes/Wpf.png" class="d-block w-100" alt="Proyecto 2">
                 </div>
-                <!-- Agrega más proyectos al carrusel según sea necesario -->
             </div>
             <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -61,14 +65,12 @@
                 </div>
             </div>
         </div>
-
-        <!-- Enlace tipo botón -->
         <a class="btn btn-primary" asp-action="PresentacionPortafolio" asp-controller="ControladorPortafolio" class="dropdown-item">Sobre mi</a>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-</html>
+
 
 
 
